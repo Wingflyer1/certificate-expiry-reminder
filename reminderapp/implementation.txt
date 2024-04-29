@@ -1,0 +1,38 @@
+How I set up this project:
+
+First i downloaded git and installed it globally
+
+1. created the virtual environment using conda
+    - in the folder programming I created a virtual environment --> conda create -n certexpreminder
+
+2. in the folder testapp I initialized git --> "git init"
+
+3. activated the virtual environment in commandline --> conda activate certexpreminder
+
+4. pip install django
+
+5. django-admin startproject 'certificate reminder'
+
+6. python manage.py startapp 'cert_app'
+
+7. created urls.py in 'cert_app' folder -> created path for index view
+
+8. updated urls.py in 'certificate_reminder' folder to point to 'cert_app/urls.py'
+
+9. created 'index' view in 'cert_app/views.py'
+
+
+At the end of every session:
+
+1. update the requirements.txt by running: conda list -e > requirements.txt
+
+2. update git:
+    - git add .
+    - git commit -m "message (what did you do this time)"
+    - git push origin main
+
+
+
+
+currently working through 'django_project' polls app tutorial 01: 
+https://docs.djangoproject.com/en/5.0/intro/tutorial01/
