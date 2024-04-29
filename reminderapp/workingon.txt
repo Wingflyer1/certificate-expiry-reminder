@@ -1,0 +1,4 @@
+currently working through 'django_project' polls app tutorial: 
+https://docs.djangoproject.com/en/5.0/intro/tutorial02/
+
+we should create our first models for our reminder app.
