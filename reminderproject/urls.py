@@ -21,9 +21,9 @@ urlpatterns = [
 
     # Reminder project urls
     # path("admin/", admin.site.urls),
-    path("projectadmin/", admin.site.urls),
+    path("admin/", admin.site.urls),
 
 
     # Reminder app urls
-    path("reminder/", include("reminderapp.urls")),
+    path("", include("reminderapp.urls")),
 ]
